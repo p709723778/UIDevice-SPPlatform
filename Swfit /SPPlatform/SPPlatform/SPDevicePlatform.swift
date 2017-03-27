@@ -27,6 +27,9 @@ public extension UIDevice
         return identifier
     }
     
+    /// 获取设备类型信息
+    ///
+    /// - Returns: 设备名称
     static func platformString()->String {
         
         let platform:String = UIDevice.platform()
