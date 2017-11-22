@@ -115,6 +115,30 @@
 	if ([platform isEqualToString:@"iPhone9,4"]) {
 		return @"iPhone 7 Plus (A1784)";
 	}
+    
+    if ([platform isEqualToString:@"iPhone10,1"]) {
+        return @"iPhone 8 (A1863/A1906/A1907)";
+    }
+    
+    if ([platform isEqualToString:@"iPhone10,2"]) {
+        return @"iPhone 8 Plus (A1864/A1898/A1899)";
+    }
+    
+    if ([platform isEqualToString:@"iPhone10,3"]) {
+        return @"iPhone X (A1865/A1902)";
+    }
+    
+    if ([platform isEqualToString:@"iPhone10,4"]) {
+        return @"iPhone 8 (A1905)";
+    }
+    
+    if ([platform isEqualToString:@"iPhone10,5"]) {
+        return @"iPhone 8 Plus (A1897)";
+    }
+    
+    if ([platform isEqualToString:@"iPhone10,6"]) {
+        return @"iPhone X (A1901)";
+    }
 
 	// iPad
 	if ([platform isEqualToString:@"iPad1,1"]) {
@@ -240,6 +264,22 @@
 	if ([platform isEqualToString:@"iPad6,8"]) {
 		return @"iPad Pro (12.9 inch, Wi-Fi+LTE)";
 	}
+    
+    if ([platform isEqualToString:@"iPad6,11"]) {
+        return @"iPad 9.7-Inch 5th Gen (Wi-Fi Only)";
+    }
+    
+    if ([platform isEqualToString:@"iPad6,12"]) {
+        return @"iPad 9.7-Inch 5th Gen (Wi-Fi/Cellular)";
+    }
+    
+    if ([platform isEqualToString:@"iPad7,3"]) {
+        return @"iPad Pro (10.5 inch, A1701)";
+    }
+    
+    if ([platform isEqualToString:@"iPad7,4"]) {
+        return @"iPad Pro (10.5 inch, A1709)";
+    }
 
 	// iPod
 	if ([platform isEqualToString:@"iPod1,1"]) {

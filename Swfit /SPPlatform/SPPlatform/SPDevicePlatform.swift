@@ -143,7 +143,7 @@ public extension UIDevice
             return "iPhone 8 Plus (A1897)"
         }
         
-        if (platform == "iPhone10,5") {
+        if (platform == "iPhone10,6") {
             return "iPhone X (A1901)"
         }
         
