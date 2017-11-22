@@ -123,6 +123,30 @@ public extension UIDevice
             return "iPhone 7 Plus (A1784)"
         }
         
+        if (platform == "iPhone10,1") {
+            return "iPhone 8 (A1863/A1906/A1907)"
+        }
+        
+        if (platform == "iPhone10,2") {
+            return "iPhone 8 Plus (A1864/A1898/A1899)"
+        }
+        
+        if (platform == "iPhone10,3") {
+            return "iPhone X (A1865/A1902)"
+        }
+        
+        if (platform == "iPhone10,4") {
+            return "iPhone 8 (A1905)"
+        }
+        
+        if (platform == "iPhone10,5") {
+            return "iPhone 8 Plus (A1897)"
+        }
+        
+        if (platform == "iPhone10,5") {
+            return "iPhone X (A1901)"
+        }
+        
         // iPad
         if platform == "iPad1,1" {
             return "iPad Touch 1G"
@@ -246,6 +270,22 @@ public extension UIDevice
         
         if platform == "iPad6,8" {
             return "iPad Pro (12.9 inch, Wi-Fi+LTE)"
+        }
+        
+        if platform == "iPad6,11" {
+            return "iPad 9.7-Inch 5th Gen (Wi-Fi Only)"
+        }
+        
+        if platform == "iPad6,12" {
+            return "iPad 9.7-Inch 5th Gen (Wi-Fi/Cellular)"
+        }
+        
+        if platform == "iPad7,3" {
+            return "iPad Pro (10.5 inch, A1701)"
+        }
+        
+        if platform == "iPad7,4" {
+            return "iPad Pro (10.5 inch, A1709)"
         }
         
         // iPod
