@@ -139,6 +139,22 @@
     if ([platform isEqualToString:@"iPhone10,6"]) {
         return @"iPhone X (A1901)";
     }
+    
+    if ([platform isEqualToString:@"iPhone11,2"]) {
+        return @"iPhone XS (A1920/A2097/A2098/A2100)";
+    }
+    
+    if ([platform isEqualToString:@"iPhone11,4"]) {
+        return @"iPhone XS Max (A1921/A2101/A2102)";
+    }
+    
+    if ([platform isEqualToString:@"iPhone11,6"]) {
+        return @"iPhone XS Max (A2104)";
+    }
+    
+    if ([platform isEqualToString:@"iPhone11,8"]) {
+        return @"iPhone XR (A1984/A2105/A2106/A2108)";
+    }
 
 	// iPad
 	if ([platform isEqualToString:@"iPad1,1"]) {
@@ -279,6 +295,14 @@
     
     if ([platform isEqualToString:@"iPad7,4"]) {
         return @"iPad Pro (10.5 inch, A1709)";
+    }
+    
+    if ([platform isEqualToString:@"iPad7,5"]) {
+        return @"iPad (6th gen, A1893)";
+    }
+    
+    if ([platform isEqualToString:@"iPad7,6"]) {
+        return @"iPad (6th gen, A1954)";
     }
 
 	// iPod
