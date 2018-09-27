@@ -147,6 +147,23 @@ public extension UIDevice
             return "iPhone X (A1901)"
         }
         
+        if (platform == "iPhone11,2") {
+            return "iPhone XS (A1920/A2097/A2098/A2100)"
+        }
+        
+        if (platform == "iPhone11,4") {
+            return "iPhone XS Max (A1921/A2101/A2102)"
+        }
+        
+        if (platform == "iPhone11,6") {
+            return "iPhone XS Max (A2104)"
+        }
+        
+        if (platform == "iPhone11,8") {
+            return "iPhone XR (A1984/A2105/A2106/A2108)"
+        }
+        
+        
         // iPad
         if platform == "iPad1,1" {
             return "iPad Touch 1G"
@@ -286,6 +303,15 @@ public extension UIDevice
         
         if platform == "iPad7,4" {
             return "iPad Pro (10.5 inch, A1709)"
+        }
+        
+        
+        if platform == "iPad7,5" {
+            return "iPad (6th gen, A1893)"
+        }
+        
+        if platform == "iPad7,6" {
+            return "iPad (6th gen, A1954)"
         }
         
         // iPod
