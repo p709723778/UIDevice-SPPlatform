@@ -389,6 +389,10 @@
         return @"iPod touch (6th gen)";
     }
 
+    if ([platform isEqualToString:@"iPod9,1"]) {
+        return @"iPod touch (7th generation)";
+    }
+
     // Xcode iOS Simulator
     if ([platform isEqualToString:@"i386"]) {
         return @"iOS i386 Simulator";
