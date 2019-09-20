@@ -320,6 +320,54 @@ public extension UIDevice {
             return "iPad (6th gen, A1954)"
         }
 
+        if platform == "iPad8,1" {
+            return "iPad Pro (11-inch, A1980)"
+        }
+
+        if platform == "iPad8,2" {
+            return "iPad Pro (11-inch, A1980)"
+        }
+
+        if platform == "iPad8,3" {
+            return "iPad Pro (11-inch, A1934/A1979/A2013)"
+        }
+
+        if platform == "iPad8,4" {
+            return "iPad Pro (11-inch, A1934/A1979/A2013)"
+        }
+
+        if platform == "iPad8,5" {
+            return "iPad Pro (11-inch, A1876)"
+        }
+
+        if platform == "iPad8,6" {
+            return "iPad Pro (11-inch, A1876)"
+        }
+
+        if platform == "iPad8,7" {
+            return "iPad Pro (11-inch, A1895/A1983/A2014)"
+        }
+
+        if platform == "iPad8,8" {
+            return "iPad Pro (11-inch, A1895/A1983/A2014)"
+        }
+
+        if platform == "iPad11,1" {
+            return "iPad mini (5th generation, A2133)"
+        }
+
+        if platform == "iPad11,2" {
+            return "iPad mini (5th generation, A2124/A2125/A2126)"
+        }
+
+        if platform == "iPad11,3" {
+            return "iPad Air (3rd generation, A2152)"
+        }
+
+        if platform == "iPad11,4" {
+            return "iPad Air (3rd generation, A2123/A2153/A2154)"
+        }
+
         // iPod
         if platform == "iPod1,1" {
             return "iPod touch"
