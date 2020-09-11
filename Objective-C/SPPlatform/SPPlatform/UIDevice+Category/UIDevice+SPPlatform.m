@@ -167,6 +167,10 @@
         return @"iPhone 11 Pro Max (A2161)";
     }
 
+    if ([platform isEqualToString:@"iPhone12,8"]) {
+        return @"iPhone SE (2nd generation)";
+    }
+
     // iPad
     if ([platform isEqualToString:@"iPad1,1"]) {
         return @"iPad Touch 1G";

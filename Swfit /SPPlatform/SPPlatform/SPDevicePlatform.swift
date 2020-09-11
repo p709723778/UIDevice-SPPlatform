@@ -171,6 +171,10 @@ public extension UIDevice {
             return "iPhone 11 Pro Max (A2161)"
         }
 
+        if platform == "iPhone12,8" {
+            return "iPhone SE (2nd generation)"
+        }
+
         // iPad
         if platform == "iPad1,1" {
             return "iPad Touch 1G"
