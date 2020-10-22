@@ -175,6 +175,22 @@ public extension UIDevice {
             return "iPhone SE (2nd generation)"
         }
 
+        if platform == "iPhone13,1" {
+            return "iPhone 12 mini"
+        }
+
+        if platform == "iPhone13,2" {
+            return "iPhone 12"
+        }
+
+        if platform == "iPhone13,3" {
+            return "iPhone 12 Pro"
+        }
+
+        if platform == "iPhone13,4" {
+            return "iPhone 12 Pro Max"
+        }
+
         // iPad
         if platform == "iPad1,1" {
             return "iPad Touch 1G"
@@ -370,6 +386,22 @@ public extension UIDevice {
 
         if platform == "iPad11,4" {
             return "iPad Air (3rd generation, A2123/A2153/A2154)"
+        }
+
+        if platform == "iPad11,6" {
+            return "iPad (8th generation, A2270)"
+        }
+
+        if platform == "iPad11,7" {
+            return "iPad (8th generation, A2428/A2429/A2430)"
+        }
+
+        if platform == "iPad13,1" {
+            return "iPad Air (4th generation)"
+        }
+
+        if platform == "iPad13,2" {
+            return "iPad Air (4th generation, A2324/A2072)"
         }
 
         // iPod
