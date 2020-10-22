@@ -10,7 +10,6 @@
 
 @interface UIDevice (SPPlatform)
 
-
 /**
    获取设备类型信息
 

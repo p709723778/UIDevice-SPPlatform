@@ -10,9 +10,7 @@
 
 @interface ViewController : UIViewController
 
-
 ///设备名称
 @property (nonatomic, weak) IBOutlet UILabel *lbl_DeviceName;
 
 @end
-

@@ -17,17 +17,15 @@
 @implementation ViewController
 
 - (void)viewDidLoad {
-	[super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    [super viewDidLoad];
+    // Do any additional setup after loading the view, typically from a nib.
 
-	self.lbl_DeviceName.text = [NSString stringWithFormat:@"设备类型名称:%@",[UIDevice platformString]];
+    self.lbl_DeviceName.text = [NSString stringWithFormat:@"设备类型名称:%@", [UIDevice platformString]];
 }
-
 
 - (void)didReceiveMemoryWarning {
-	[super didReceiveMemoryWarning];
-	// Dispose of any resources that can be recreated.
+    [super didReceiveMemoryWarning];
+    // Dispose of any resources that can be recreated.
 }
-
 
 @end

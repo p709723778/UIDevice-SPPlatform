@@ -118,12 +118,12 @@
 		9851A7AA1E88F74D009C525D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1200;
+				LastUpgradeCheck = 1220;
 				ORGANIZATIONNAME = SotoPoul;
 				TargetAttributes = {
 					9851A7B11E88F74D009C525D = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = 3KKWRJH66V;
+						DevelopmentTeam = N59GEH37WQ;
 						ProvisioningStyle = Manual;
 					};
 				};
@@ -309,14 +309,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 3KKWRJH66V;
+				DEVELOPMENT_TEAM = N59GEH37WQ;
 				INFOPLIST_FILE = SPPlatform/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.soto.SPPlatformOC;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = wild_dev;
+				PROVISIONING_PROFILE_SPECIFIER = test_sdk_wildCard;
 			};
 			name = Debug;
 		};
@@ -326,14 +326,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 3KKWRJH66V;
+				DEVELOPMENT_TEAM = N59GEH37WQ;
 				INFOPLIST_FILE = SPPlatform/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.soto.SPPlatformOC;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = wild_dev;
+				PROVISIONING_PROFILE_SPECIFIER = test_sdk_wildCard;
 			};
 			name = Release;
 		};
