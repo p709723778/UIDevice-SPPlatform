@@ -9,23 +9,19 @@
 import UIKit
 
 class ViewController: UIViewController {
+    @IBOutlet var lbl_DeviceName: UILabel!
 
-	@IBOutlet weak var lbl_DeviceName: UILabel!
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        // Do any additional setup after loading the view, typically from a nib.
 
-	override func viewDidLoad() {
-		super.viewDidLoad()
-		// Do any additional setup after loading the view, typically from a nib.
+        print(UIDevice.platformString())
 
-		print(UIDevice.platformString())
+        lbl_DeviceName.text = "设备类型名称:" + UIDevice.platformString()
+    }
 
-		lbl_DeviceName.text = "设备类型名称:" + UIDevice.platformString()
-	}
-
-	override func didReceiveMemoryWarning() {
-		super.didReceiveMemoryWarning()
-		// Dispose of any resources that can be recreated.
-	}
-
-
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+        // Dispose of any resources that can be recreated.
+    }
 }
-

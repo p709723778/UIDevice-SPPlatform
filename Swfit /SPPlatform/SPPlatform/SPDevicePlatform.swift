@@ -442,6 +442,8 @@ public extension UIDevice {
             return "iOS x86_64 Simulator"
         }
 
-        return ""
+        print("NOTE: Unknown device type: " + platform)
+
+        return platform
     }
 }
