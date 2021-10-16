@@ -191,6 +191,22 @@ public extension UIDevice {
             return "iPhone 12 Pro Max"
         }
 
+        if platform == "iPhone14,2" {
+            return "iPhone 13 Pro"
+        }
+
+        if platform == "iPhone14,3" {
+            return "iPhone 13 Pro Max"
+        }
+
+        if platform == "iPhone14,4" {
+            return "iPhone 13 mini"
+        }
+
+        if platform == "iPhone14,5" {
+            return "iPhone 13"
+        }
+
         // iPad
         if platform == "iPad1,1" {
             return "iPad Touch 1G"
@@ -402,6 +418,14 @@ public extension UIDevice {
 
         if platform == "iPad13,2" {
             return "iPad Air (4th generation, A2324/A2072)"
+        }
+        
+        if platform == "iPad14,1" {
+            return "iPad mini (5th generation)"
+        }
+
+        if platform == "iPad14,2" {
+            return "iPad mini (6th generation, A2568/A2569)"
         }
 
         // iPod
