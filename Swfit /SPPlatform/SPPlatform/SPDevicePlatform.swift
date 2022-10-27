@@ -206,6 +206,27 @@ public extension UIDevice {
         if platform == "iPhone14,5" {
             return "iPhone 13"
         }
+        
+        if platform == "iPhone14,6" {
+            return "iPhone SE (3rd generation)"
+        }
+        
+        if platform == "iPhone14,7" {
+            return "iPhone 14 (A2649/A2881/A2882/A2883/A2884)"
+        }
+        
+        if platform == "iPhone14,8" {
+            return "iPhone 14 Plus(A2632/A2885/A2886/A2887/A2888)"
+        }
+        
+        if platform == "iPhone15,2" {
+            return "iPhone 14 Pro(A2650/A2889/A2890/A2891/A2892)"
+        }
+        
+        if platform == "iPhone15,3" {
+            return "iPhone 14 Pro Max(A2651/A2893/A2894/A2895/A2896)"
+        }
+        
 
         // iPad
         if platform == "iPad1,1" {
